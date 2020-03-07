@@ -23,7 +23,7 @@ services:
     depends_on:
       - app
     ports:
-      - "8550:80"
+      - "${WEBAPP_PORT}:80"
 
   test:
     build:

@@ -1,16 +1,15 @@
-# Comunee — backend
-
-![Build](https://github.com/mbyakow/comunee-backend/workflows/Build/badge.svg?branch=master)
+# Backend project template
 
 ## Overview
 
-* This project provides API for consumption.
-* This API powers Comunee frontend, which is also an open source project.
+Project template to quickly start development on new projects. 
 
 ## Tech stack
 
 * PHP 7.4
 * Symfony 5.0.5
+* Docker
+* Github Actions
 
 ## Quickstart
 
@@ -20,4 +19,5 @@
 
 ## Notes
 
-* The API runs on port 8550 by default.
+* The API runs on port `<your-port>` by default.
+* Documentation is available on `http://localhost:<your-port>/api/documentation`.
